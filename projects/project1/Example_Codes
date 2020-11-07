@@ -1,0 +1,51 @@
+$$$$$$ EXAMPLE PROGRAM BELOW $$$$$$
+
+set a = {1,2,3,45,6,7,8,9};
+set b = {"Olcay","Zeynep"};
+
+set c = a union b;
+set d = a intersect b;
+
+if ( b == c ){ piwrite("b is a subset of c"); };
+
+
+for i in a {
+    "XXXXXXXXXXXX".writeFile(i); $$ XXXXXXXXXXXX is the filename
+};
+
+
+string a = "9";
+int b = 9;
+
+if ( a == b){
+    piwrite("Both of the variables are equal");
+};
+
+set createSet(int x, string y){
+    set c = {x,y};
+    return c;
+};
+
+
+
+set a = {1,2,3};
+set b = {"a", "b", 1, 2, 3, a};
+
+int c = piread();
+int d = 9;
+
+while( c subset d){
+    if( a <= b ){
+        piwrite("A IS A MEMBER OF B");
+    };
+    c = c + 1;
+};
+for(int i =0; i < 9; +i){
+    if( a subset b ){
+        piwrite(" a is a subset of b ");
+    };
+};
+
+delete a;
+b add "hey";
+
